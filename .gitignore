@@ -1,0 +1,21 @@
+# /文件夹名  就是过滤整个文件夹  前面加 ! 就是不过滤
+# 创建.gitignore文件之前就push了的文件 后面再过滤的话就不会生效
+
+# Compiled class file 忽略所有编译生成的class文件
+*.class
+
+# Log file 忽略所有的.log文件
+*.log
+
+# Package Files 
+*.jar
+*.war
+*/bin/
+*/gen/
+*/out/
+*.iml
+
+
+
+
+
