@@ -13,8 +13,35 @@
 */bin/
 */gen/
 */out/
-*.iml
 
+
+# IntelliJ IDEA #
+.idea/
+/.idea/
+*/.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse Project files
+.classpath
+.project
+/.settings/
+.settings/
+
+### user ###
+target/
+/target/
+/src/logs/
+*.zip
+sdkTest.log
+
+#some local files
+*/.DS_Store
+.DS_Store
+gradlew
+gradlew.bat
+unused.txt
 
 
 
